@@ -7,8 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import butterknife.Bind;
 import butterknife.BindString;
-import butterknife.BindView;
 import licola.demo.com.huabandemo.API.HttpsAPI.LoginAPI;
 import licola.demo.com.huabandemo.Base.BaseActivity;
 import licola.demo.com.huabandemo.HttpUtils.RetrofitClient;
@@ -42,7 +42,7 @@ public class WelcomeActivity extends BaseActivity {
 
     @BindString(R.string.text_auto_login_fail)
     String mMessageFail;
-    @BindView(R.id.img_welcome)
+    @Bind(R.id.img_welcome)
     ImageView mImageView;
 
 
